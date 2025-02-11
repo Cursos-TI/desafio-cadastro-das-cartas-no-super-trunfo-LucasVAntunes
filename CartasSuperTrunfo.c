@@ -103,7 +103,8 @@ int main() {
     printf ("Insira o PIB da cidade:\n");
     scanf ("%f", &pib4);
 
-    printf("\n=======================================================================\n");
+    printf ("\n=======================================================================\n");
+    printf ("\nCIDADE 1\n\n");
     printf ("CIDADE: %s\n", nome1);
     printf ("CODIGO: %s\n", codigo1);
     printf ("POPULACAO: %d\n", populacao1);
@@ -112,7 +113,8 @@ int main() {
     printf ("PIB: %.2f\n", pib1);
     printf("=======================================================================\n");
 
-    printf("\n=======================================================================\n");
+    printf ("\n=======================================================================\n");
+    printf ("\nCIDADE 2\n\n");
     printf ("CIDADE: %s\n", nome2);
     printf ("CODIGO: %s\n", codigo2);
     printf ("POPULACAO: %d\n", populacao2);
@@ -122,6 +124,7 @@ int main() {
     printf("=======================================================================\n");
 
     printf("\n=======================================================================\n");
+    printf ("\nCIDADE 3\n\n");
     printf ("CIDADE: %s\n", nome3);
     printf ("CODIGO: %s\n", codigo3);
     printf ("POPULACAO: %d\n", populacao3);
@@ -131,6 +134,7 @@ int main() {
     printf("=======================================================================\n");
 
     printf("\n=======================================================================\n");
+    printf ("\nCIDADE 4\n\n");
     printf ("CIDADE: %s\n", nome4);
     printf ("CODIGO: %s\n", codigo4);
     printf ("POPULACAO: %d\n", populacao4);
