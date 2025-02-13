@@ -80,9 +80,6 @@ int main() {
     printf ("Insira o PIB da cidade:\n");
     scanf ("%f", &pib3);
 
-
-
-
 //Cidade 4
 
     printf ("Seja bem vindo ao Super Trunfo Países\n\nInsira o nome da quarta cidade:\n");
@@ -102,6 +99,10 @@ int main() {
 
     printf ("Insira o PIB da cidade:\n");
     scanf ("%f", &pib4);
+
+    // Exibição dos Dados das Cartas:
+    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
+    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     printf ("\n=======================================================================\n");
     printf ("\nCIDADE 1\n\n");
@@ -142,10 +143,6 @@ int main() {
     printf ("AREA: %.2f\n", area4);
     printf ("PIB: %.2f\n", pib4);
     printf("=======================================================================\n");
-
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     return 0;
 }
