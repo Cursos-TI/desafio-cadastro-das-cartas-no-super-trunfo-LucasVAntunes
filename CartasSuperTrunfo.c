@@ -11,8 +11,9 @@ int main() {
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
     int populacao1, populacao2, populacao3, populacao4, pontosturisticos1, pontosturisticos2, pontosturisticos3, pontosturisticos4;
-    float area1, area2, area3, area4, pib1, pib2, pib3, pib4;
+    float area1, area2, area3, area4, pib1, pib2, pib3, pib4, denspop1, denspop2, denspop3, denspop4, ppcap1, ppcap2, ppcap3, ppcap4;
     char codigo1 [4], codigo2 [4], codigo3 [4], codigo4 [4], nome1 [20], nome2 [20], nome3 [20], nome4 [20];
+
     
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
@@ -40,7 +41,7 @@ int main() {
 
 //Cidade 2
 
-    printf ("Seja bem vindo ao Super Trunfo Países\n\nInsira o nome da segunda cidade:\n");
+    printf ("\nInsira o nome da segunda cidade:\n");
     scanf ("%20s", nome2);
 
     printf ("Insira o código da carta:\n");
@@ -58,11 +59,9 @@ int main() {
     printf ("Insira o PIB da cidade:\n");
     scanf ("%f", &pib2);
 
-
-
 //Cidade 3
 
-    printf ("Insira o nome da terceira cidade:\n");
+    printf ("\nInsira o nome da terceira cidade:\n");
     scanf ("%20s", nome3);
 
     printf ("Insira o código da carta:\n");
@@ -82,7 +81,7 @@ int main() {
 
 //Cidade 4
 
-    printf ("Seja bem vindo ao Super Trunfo Países\n\nInsira o nome da quarta cidade:\n");
+    printf ("\nInsira o nome da quarta cidade:\n");
     scanf ("%20s", nome4);
 
     printf ("Insira o código da carta:\n");
@@ -104,44 +103,68 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+//Cálculo densidade populacional
+
+    denspop1 = populacao1 / area1;
+    denspop2 = populacao2 / area2;
+    denspop3 = populacao3 / area3;
+    denspop4 = populacao4 / area4;
+
+//Cálculo pib per capta
+
+    ppcap1 = pib1 / populacao1;
+    ppcap2 = pib2 / populacao2;
+    ppcap3 = pib3 / populacao3;
+    ppcap4 = pib4 / populacao4;
+
+//Exibição dos dados
+
     printf ("\n=======================================================================\n");
-    printf ("\nCIDADE 1\n\n");
+    printf ("CIDADE 1\n\n");
     printf ("CIDADE: %s\n", nome1);
     printf ("CODIGO: %s\n", codigo1);
     printf ("POPULACAO: %d\n", populacao1);
     printf ("PONTOS TURISTICOS: %d\n", pontosturisticos1);
     printf ("AREA: %.2f\n", area1);
     printf ("PIB: %.2f\n", pib1);
+    printf ("Densidade Populacional: %.2f\n",denspop1);
+    printf ("PIB per capta: %.2f\n",ppcap1);
     printf("=======================================================================\n");
 
     printf ("\n=======================================================================\n");
-    printf ("\nCIDADE 2\n\n");
+    printf ("CIDADE 2\n\n");
     printf ("CIDADE: %s\n", nome2);
     printf ("CODIGO: %s\n", codigo2);
     printf ("POPULACAO: %d\n", populacao2);
     printf ("PONTOS TURISTICOS: %d\n", pontosturisticos2);
     printf ("AREA: %.2f\n", area2);
     printf ("PIB: %.2f\n", pib2);
+    printf ("Densidade Populacional: %.2f\n",denspop2);
+    printf ("PIB per capta: %.2f\n",ppcap2);
     printf("=======================================================================\n");
 
     printf("\n=======================================================================\n");
-    printf ("\nCIDADE 3\n\n");
+    printf ("CIDADE 3\n\n");
     printf ("CIDADE: %s\n", nome3);
     printf ("CODIGO: %s\n", codigo3);
     printf ("POPULACAO: %d\n", populacao3);
     printf ("PONTOS TURISTICOS: %d\n", pontosturisticos3);
     printf ("AREA: %.2f\n", area3);
     printf ("PIB: %.2f\n", pib3);
+    printf ("Densidade Populacional: %.2f\n",denspop3);
+    printf ("PIB per capta: %.2f\n",ppcap3);
     printf("=======================================================================\n");
 
     printf("\n=======================================================================\n");
-    printf ("\nCIDADE 4\n\n");
+    printf ("CIDADE 4\n\n");
     printf ("CIDADE: %s\n", nome4);
     printf ("CODIGO: %s\n", codigo4);
     printf ("POPULACAO: %d\n", populacao4);
     printf ("PONTOS TURISTICOS: %d\n", pontosturisticos4);
     printf ("AREA: %.2f\n", area4);
     printf ("PIB: %.2f\n", pib4);
+    printf ("Densidade Populacional: %.2f\n",denspop4);
+    printf ("PIB per capta: %.2f\n",ppcap4);
     printf("=======================================================================\n");
 
     return 0;
