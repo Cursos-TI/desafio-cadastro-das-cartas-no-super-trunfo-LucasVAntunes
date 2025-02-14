@@ -11,7 +11,7 @@ int main() {
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
     int populacao1, populacao2, populacao3, populacao4, pontosturisticos1, pontosturisticos2, pontosturisticos3, pontosturisticos4;
-    float area1, area2, area3, area4, pib1, pib2, pib3, pib4, denspop1, denspop2, denspop3, denspop4, ppcap1, ppcap2, ppcap3, ppcap4;
+    float area1, area2, area3, area4, pib1, pib2, pib3, pib4, denspop1, denspop2, denspop3, denspop4, ppcap1, ppcap2, ppcap3, ppcap4, poder1, poder2, poder3, poder4;
     char codigo1 [4], codigo2 [4], codigo3 [4], codigo4 [4], nome1 [20], nome2 [20], nome3 [20], nome4 [20];
 
     
@@ -117,6 +117,13 @@ int main() {
     ppcap3 = pib3 / populacao3;
     ppcap4 = pib4 / populacao4;
 
+//Cálculo super poder
+
+    poder1 = populacao1 + pontosturisticos1 + area1 + pib1 + denspop1 + ppcap1;
+    poder2 = populacao2 + pontosturisticos2 + area2 + pib2 + denspop2 + ppcap2;
+    poder3 = populacao3 + pontosturisticos3 + area3 + pib3 + denspop3 + ppcap3;
+    poder4 = populacao4 + pontosturisticos4 + area4 + pib4 + denspop4 + ppcap4;
+
 //Exibição dos dados
 
     printf ("\n=======================================================================\n");
@@ -127,8 +134,9 @@ int main() {
     printf ("PONTOS TURISTICOS: %d\n", pontosturisticos1);
     printf ("AREA: %.2f\n", area1);
     printf ("PIB: %.2f\n", pib1);
-    printf ("Densidade Populacional: %.2f\n",denspop1);
-    printf ("PIB per capta: %.2f\n",ppcap1);
+    printf ("DENSIDADE POPULACIONAL: %.2f\n",denspop1);
+    printf ("PIB PER CAPTA: %.2f\n",ppcap1);
+    printf ("*SUPER PODER*: %.0f\n", poder1);
     printf("=======================================================================\n");
 
     printf ("\n=======================================================================\n");
@@ -139,8 +147,9 @@ int main() {
     printf ("PONTOS TURISTICOS: %d\n", pontosturisticos2);
     printf ("AREA: %.2f\n", area2);
     printf ("PIB: %.2f\n", pib2);
-    printf ("Densidade Populacional: %.2f\n",denspop2);
-    printf ("PIB per capta: %.2f\n",ppcap2);
+    printf ("DENSIDADE POPULACIONAL: %.2f\n",denspop2);
+    printf ("PIB PER CAPTA: %.2f\n",ppcap2);
+    printf ("*SUPER PODER*: %.0f\n", poder2);
     printf("=======================================================================\n");
 
     printf("\n=======================================================================\n");
@@ -151,8 +160,9 @@ int main() {
     printf ("PONTOS TURISTICOS: %d\n", pontosturisticos3);
     printf ("AREA: %.2f\n", area3);
     printf ("PIB: %.2f\n", pib3);
-    printf ("Densidade Populacional: %.2f\n",denspop3);
-    printf ("PIB per capta: %.2f\n",ppcap3);
+    printf ("DENSIDADE POPULACIONAL: %.2f\n",denspop3);
+    printf ("PIB PER CAPTA: %.2f\n",ppcap3);
+    printf ("*SUPER PODER*: %.0f\n", poder3);
     printf("=======================================================================\n");
 
     printf("\n=======================================================================\n");
@@ -163,9 +173,15 @@ int main() {
     printf ("PONTOS TURISTICOS: %d\n", pontosturisticos4);
     printf ("AREA: %.2f\n", area4);
     printf ("PIB: %.2f\n", pib4);
-    printf ("Densidade Populacional: %.2f\n",denspop4);
-    printf ("PIB per capta: %.2f\n",ppcap4);
+    printf ("DENSIDADE POPULACIONAL: %.2f\n",denspop4);
+    printf ("PIB PER CAPTA: %.2f\n",ppcap4);
+    printf ("*SUPER PODER*: %.0f\n", poder4);
     printf("=======================================================================\n");
+
+//Comparação de cartas
+
+
+
 
     return 0;
 }
