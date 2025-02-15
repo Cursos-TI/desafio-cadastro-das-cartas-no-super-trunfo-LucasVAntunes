@@ -181,17 +181,17 @@ int main() {
 //Comparação de cartas
 
     printf("\nDigite o número referente a primeira cidade a ser comparada.\n");
-    printf("1. %s.",nome1);
-    printf("2. %s.",nome2);
-    printf("3. %s.",nome3);
-    printf("4. %s.",nome4);
+    printf("1. %s.\n",nome1);
+    printf("2. %s.\n",nome2);
+    printf("3. %s.\n",nome3);
+    printf("4. %s.\n",nome4);
     scanf ("%d", &compara1);
 
     switch (compara1)
     {
     case 1:
 
-    printf("Qual cidade deseja comparar a %s?\n", nome1);
+    printf("\nQual cidade deseja comparar a %s?\n", nome1);
     scanf ("%d", &compara2);
     
         switch (compara2)
@@ -205,7 +205,7 @@ int main() {
         
         if (populacao1>populacao2)
         {
-            printf ("A população de %s (%d) é maior que a população de %s (%d).\n",nome1,populacao1,nome2,populacao2);
+            printf ("\nA população de %s (%d) é maior que a população de %s (%d).\n",nome1,populacao1,nome2,populacao2);
         }
         else
         {
@@ -363,8 +363,87 @@ int main() {
 
             break;
 
+            //CIDADE 1 vs CIDADE 4
         case 4:
 
+        //População
+        
+        if (populacao1>populacao4)
+        {
+            printf ("A população de %s (%d) é maior que a população de %s (%d).\n",nome1,populacao1,nome4,populacao4);
+        }
+        else
+        {
+            printf ("A população de %s (%d) é maior que a população de %s (%d).\n",nome4,populacao4,nome1,populacao1);
+        }
+        
+        //pontos turísticos
+        
+        if (pontosturisticos1>pontosturisticos4)
+        {
+            printf ("%s tem mais pontos turísticos (%d) que %s (%d).\n",nome1,pontosturisticos1,nome4,pontosturisticos4);
+        }
+        else
+        {
+            printf ("%s tem mais pontos turísticos (%d) que %s (%d).\n",nome4,pontosturisticos4,nome1,pontosturisticos1);
+        }
+        
+        //Área
+
+        if (area1>area4)
+        {
+            printf ("A area de %s (%.2f) é maior que a area de %s (%.2f).\n",nome1,area1,nome4,area4);
+        }
+        else
+        {
+            printf ("A area de %s (%.2f) é maior que a area de %s (%.2f).\n",nome4,area4,nome1,area1);
+        }
+
+        //PIB
+
+        if (pib1>pib4)
+        {
+            printf ("O PIB de %s (%.2f) é maior que o PIB de %s (%.2f).\n",nome1,pib1,nome4,pib4);
+        }
+        else
+        {
+            printf ("O PIB de %s (%.2f) é maior que o PIB de %s (%.2f).\n",nome4,pib4,nome1,pib1);
+        }
+
+        //Densidade populacional
+
+        if (denspop1<denspop4)
+        {
+            printf ("A densidade populacional de %s (%.2f) é menor que a densidade populacional de %s (%.2f).\n",nome1,denspop1,nome4,denspop4);
+        }
+        else
+        {
+            printf ("A densidade populacional de %s (%.2f) é menor que a densidade populacional de %s (%.2f).\n",nome4,denspop4,nome1,denspop1);
+        }
+
+        //PIB per capta
+
+        if (pib1>pib4)
+        {
+            printf ("O PIB per capta de %s (%.2f) é maior que o PIB per capta de %s (%.2f).\n",nome1,ppcap1,nome4,ppcap4);
+        }
+        else
+        {
+            printf ("A PIB per capta de %s (%.2f) é maior que o PIB per capta de %s (%.2f).\n",nome4,ppcap4,nome1,ppcap1);
+        }
+
+        //Super poder
+
+        if (poder1>poder4)
+        {
+            printf ("O super poder de %s (%.0f) é maior que o super poder de %s (%.0f).\n",nome1,poder1,nome4,poder4);
+        }
+        else
+        {
+            printf ("O super poder de %s (%.0f) é maior que o super poder de %s (%.0f).\n\n",nome4,poder4,nome1,poder1);
+        }
+
+            break;
 
         default:
             break;
