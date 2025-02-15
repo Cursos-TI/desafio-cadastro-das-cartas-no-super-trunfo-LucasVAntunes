@@ -214,7 +214,7 @@ int main() {
         }
         else 
         {
-            printf("A população de %s e de %s são iguais (%d)",nome1,nome2,populacao1);
+            printf("A população de %s e de %s são iguais (%d)\n",nome1,nome2,populacao1);
         }
         
         //pontos turísticos
@@ -229,7 +229,7 @@ int main() {
         }
         else 
         {
-            printf("O número de pontos turísticos de %s e de %s são iguais (%d)",nome1,nome2,pontosturisticos1);
+            printf("O número de pontos turísticos de %s e de %s são iguais (%d)\n",nome1,nome2,pontosturisticos1);
         }
         
         //Área
@@ -244,7 +244,7 @@ int main() {
         }
         else 
         {
-            printf("A área de %s e %s são iguais (%.2f)",nome1,nome2,area1);
+            printf("A área de %s e %s são iguais (%.2f)\n",nome1,nome2,area1);
         }
 
         //PIB
@@ -259,7 +259,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB de %s e %s são iguais (%.2f)",nome1,nome2,pib1);
+            printf("O PIB de %s e %s são iguais (%.2f)\n",nome1,nome2,pib1);
         }
 
         //Densidade populacional
@@ -274,7 +274,7 @@ int main() {
         }
         else 
         {
-            printf("A densidade populacional de %s e %s são iguais (%.2f)",nome1,nome2,denspop1);
+            printf("A densidade populacional de %s e %s são iguais (%.2f)\n",nome1,nome2,denspop1);
         }
 
         //PIB per capta
@@ -289,7 +289,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB per capta de %s e %s são iguais (%.2f)",nome1,nome2,ppcap2);
+            printf("O PIB per capta de %s e %s são iguais (%.2f)\n",nome1,nome2,ppcap2);
         }
 
         //Super poder
@@ -304,7 +304,7 @@ int main() {
         }
         else 
         {
-            printf("O super poder de %s e %s são iguais (%.2f)",nome1,nome2,poder1);
+            printf("O super poder de %s e %s são iguais (%.2f)\n",nome1,nome2,poder1);
         }
 
             break;
@@ -325,7 +325,7 @@ int main() {
         }
         else 
         {
-            printf("A população de %s e %s são iguais (%d)",nome1,nome3,populacao1);
+            printf("A população de %s e %s são iguais (%d)\n",nome1,nome3,populacao1);
         }
         
         //pontos turísticos
@@ -340,7 +340,7 @@ int main() {
         }
         else 
         {
-            printf("O número de pontos turísticos de %s e de %s são iguais (%d)",nome1,nome3,pontosturisticos1);
+            printf("O número de pontos turísticos de %s e de %s são iguais (%d)\n",nome1,nome3,pontosturisticos1);
         }
 
         //Área
@@ -355,7 +355,7 @@ int main() {
         }
         else 
         {
-            printf("A área de %s e %s são iguais (%.2f)",nome1,nome3,area1);
+            printf("A área de %s e %s são iguais (%.2f)\n",nome1,nome3,area1);
         }
 
         //PIB
@@ -370,7 +370,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB de %s e %s são iguais (%.2f)",nome1,nome3,pib1);
+            printf("O PIB de %s e %s são iguais (%.2f)\n",nome1,nome3,pib1);
         }
 
         //Densidade populacional
@@ -385,7 +385,7 @@ int main() {
         }
         else 
         {
-            printf("A densidade populacional de %s e %s são iguais (%.2f)",nome1,nome3,denspop1);
+            printf("A densidade populacional de %s e %s são iguais (%.2f)\n",nome1,nome3,denspop1);
         }
 
         //PIB per capta
@@ -400,7 +400,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB per capta de %s e %s são iguais (%.2f)",nome1,nome3,ppcap2);
+            printf("O PIB per capta de %s e %s são iguais (%.2f)\n",nome1,nome3,ppcap2);
         }
 
         //Super poder
@@ -415,7 +415,7 @@ int main() {
         }
         else 
         {
-            printf("O super poder de %s e %s são iguais (%.2f)",nome1,nome3,poder1);
+            printf("O super poder de %s e %s são iguais (%.2f)\n",nome1,nome3,poder1);
         }
 
             break;
@@ -435,7 +435,7 @@ int main() {
         }
         else 
         {
-            printf("A população de %s e de %s são iguais (%d)",nome1,nome4,populacao1);
+            printf("A população de %s e de %s são iguais (%d)\n",nome1,nome4,populacao1);
         }
         
         //pontos turísticos
@@ -450,7 +450,7 @@ int main() {
         }
         else 
         {
-            printf("O número de pontos turísticos de %s e de %s são iguais (%d)",nome1,nome4,pontosturisticos1);
+            printf("O número de pontos turísticos de %s e de %s são iguais (%d)\n",nome1,nome4,pontosturisticos1);
         }
         
         //Área
@@ -465,7 +465,7 @@ int main() {
         }
         else 
         {
-            printf("A área de %s e %s são iguais (%.2f)",nome1,nome4,area1);
+            printf("A área de %s e %s são iguais (%.2f)\n",nome1,nome4,area1);
         }
 
         //PIB
@@ -480,7 +480,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB de %s e %s são iguais (%.2f)",nome1,nome4,pib1);
+            printf("O PIB de %s e %s são iguais (%.2f)\n",nome1,nome4,pib1);
         }
 
         //Densidade populacional
@@ -495,7 +495,7 @@ int main() {
         }
         else 
         {
-            printf("A densidade populacional de %s e %s são iguais (%.2f)",nome1,nome4,denspop1);
+            printf("A densidade populacional de %s e %s são iguais (%.2f)\n",nome1,nome4,denspop1);
         }
 
         //PIB per capta
@@ -510,7 +510,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB per capta de %s e %s são iguais (%.2f)",nome1,nome4,ppcap1);
+            printf("O PIB per capta de %s e %s são iguais (%.2f)\n",nome1,nome4,ppcap1);
         }
 
         //Super poder
@@ -525,7 +525,7 @@ int main() {
         }
         else 
         {
-            printf("O super poder de %s e %s são iguais (%.2f)",nome1,nome4,poder1);
+            printf("O super poder de %s e %s são iguais (%.2f)\n",nome1,nome4,poder1);
         }
 
             break;
@@ -563,7 +563,7 @@ int main() {
         }
         else 
         {
-            printf("A população de %s e de %s são iguais (%d)",nome1,nome2,populacao1);
+            printf("A população de %s e de %s são iguais (%d)\n",nome1,nome2,populacao1);
         }
         
         //pontos turísticos
@@ -578,7 +578,7 @@ int main() {
         }
         else 
         {
-            printf("O número de pontos turísticos de %s e de %s são iguais (%d)",nome1,nome2,pontosturisticos1);
+            printf("O número de pontos turísticos de %s e de %s são iguais (%d)\n",nome1,nome2,pontosturisticos1);
         }
         
         //Área
@@ -593,7 +593,7 @@ int main() {
         }
         else 
         {
-            printf("A área de %s e %s são iguais (%.2f)",nome1,nome2,area1);
+            printf("A área de %s e %s são iguais (%.2f)\n",nome1,nome2,area1);
         }
 
         //PIB
@@ -608,7 +608,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB de %s e %s são iguais (%.2f)",nome1,nome2,pib1);
+            printf("O PIB de %s e %s são iguais (%.2f)\n",nome1,nome2,pib1);
         }
 
         //Densidade populacional
@@ -623,7 +623,7 @@ int main() {
         }
         else 
         {
-            printf("A densidade populacional de %s e %s são iguais (%.2f)",nome1,nome2,denspop1);
+            printf("A densidade populacional de %s e %s são iguais (%.2f)\n",nome1,nome2,denspop1);
         }
 
         //PIB per capta
@@ -638,7 +638,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB per capta de %s e %s são iguais (%.2f)",nome1,nome2,ppcap2);
+            printf("O PIB per capta de %s e %s são iguais (%.2f)\n",nome1,nome2,ppcap2);
         }
 
         //Super poder
@@ -653,7 +653,7 @@ int main() {
         }
         else 
         {
-            printf("O super poder de %s e %s são iguais (%.2f)",nome1,nome2,poder1);
+            printf("O super poder de %s e %s são iguais (%.2f)\n",nome1,nome2,poder1);
         }
 
             break;
@@ -674,7 +674,7 @@ int main() {
         }
         else 
         {
-            printf("A população de %s e de %s são iguais (%d)",nome2,nome4,populacao2);
+            printf("A população de %s e de %s são iguais (%d)\n",nome2,nome4,populacao2);
         }
         
         //pontos turísticos
@@ -689,7 +689,7 @@ int main() {
         }
         else 
         {
-            printf("O número de pontos turísticos de %s e de %s são iguais (%d)",nome2,nome3,pontosturisticos2);
+            printf("O número de pontos turísticos de %s e de %s são iguais (%d)\n",nome2,nome3,pontosturisticos2);
         }
         
         //Área
@@ -704,7 +704,7 @@ int main() {
         }
         else 
         {
-            printf("A área de %s e %s são iguais (%.2f)",nome2,nome3,area2);
+            printf("A área de %s e %s são iguais (%.2f)\n",nome2,nome3,area2);
         }
 
         //PIB
@@ -719,7 +719,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB de %s e %s são iguais (%.2f)",nome2,nome3,pib2);
+            printf("O PIB de %s e %s são iguais (%.2f)\n",nome2,nome3,pib2);
         }
 
         //Densidade populacional
@@ -734,7 +734,7 @@ int main() {
         }
         else 
         {
-            printf("A densidade populacional de %s e %s são iguais (%.2f)",nome2,nome3,denspop2);
+            printf("A densidade populacional de %s e %s são iguais (%.2f)\n",nome2,nome3,denspop2);
         }
 
         //PIB per capta
@@ -749,7 +749,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB per capta de %s e %s são iguais (%.2f)",nome2,nome3,ppcap2);
+            printf("O PIB per capta de %s e %s são iguais (%.2f)\n",nome2,nome3,ppcap2);
         }
 
         //Super poder
@@ -764,7 +764,7 @@ int main() {
         }
         else 
         {
-            printf("O super poder de %s e %s são iguais (%.2f)",nome2,nome3,poder2);
+            printf("O super poder de %s e %s são iguais (%.2f)\n",nome2,nome3,poder2);
         }
 
             break;
@@ -784,7 +784,7 @@ int main() {
         }
         else 
         {
-            printf("A população de %s e de %s são iguais (%d)",nome2,nome4,populacao2);
+            printf("A população de %s e de %s são iguais (%d)\n",nome2,nome4,populacao2);
         }
         
         //pontos turísticos
@@ -799,7 +799,7 @@ int main() {
         }
         else 
         {
-            printf("O número de pontos turísticos de %s e de %s são iguais (%d)",nome2,nome4,pontosturisticos2);
+            printf("O número de pontos turísticos de %s e de %s são iguais (%d)\n",nome2,nome4,pontosturisticos2);
         }
         
         //Área
@@ -814,7 +814,7 @@ int main() {
         }
         else 
         {
-            printf("A área de %s e %s são iguais (%.2f)",nome2,nome4,area2);
+            printf("A área de %s e %s são iguais (%.2f)\n",nome2,nome4,area2);
         }
 
         //PIB
@@ -829,7 +829,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB de %s e %s são iguais (%.2f)",nome2,nome4,pib2);
+            printf("O PIB de %s e %s são iguais (%.2f)\n",nome2,nome4,pib2);
         }
 
         //Densidade populacional
@@ -844,7 +844,7 @@ int main() {
         }
         else 
         {
-            printf("A densidade populacional de %s e %s são iguais (%.2f)",nome2,nome4,denspop2);
+            printf("A densidade populacional de %s e %s são iguais (%.2f)\n",nome2,nome4,denspop2);
         }
 
         //PIB per capta
@@ -859,7 +859,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB per capta de %s e %s são iguais (%.2f)",nome2,nome4,ppcap2);
+            printf("O PIB per capta de %s e %s são iguais (%.2f)\n",nome2,nome4,ppcap2);
         }
 
         //Super poder
@@ -874,7 +874,7 @@ int main() {
         }
         else 
         {
-            printf("O super poder de %s e %s são iguais (%.2f)",nome2,nome4,poder2);
+            printf("O super poder de %s e %s são iguais (%.2f)\n",nome2,nome4,poder2);
         }
 
             break;
@@ -913,7 +913,7 @@ int main() {
         }
         else 
         {
-            printf("A população de %s e de %s são iguais (%d)",nome1,nome3,populacao1);
+            printf("A população de %s e de %s são iguais (%d)\n",nome1,nome3,populacao1);
         }
         
         //pontos turísticos
@@ -928,7 +928,7 @@ int main() {
         }
         else 
         {
-            printf("O número de pontos turísticos de %s e de %s são iguais (%d)",nome1,nome3,pontosturisticos1);
+            printf("O número de pontos turísticos de %s e de %s são iguais (%d)\n",nome1,nome3,pontosturisticos1);
         }
         
         //Área
@@ -943,7 +943,7 @@ int main() {
         }
         else 
         {
-            printf("A área de %s e %s são iguais (%.2f)",nome1,nome3,area1);
+            printf("A área de %s e %s são iguais (%.2f)\n",nome1,nome3,area1);
         }
 
         //PIB
@@ -958,7 +958,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB de %s e %s são iguais (%.2f)",nome1,nome3,pib1);
+            printf("O PIB de %s e %s são iguais (%.2f)\n",nome1,nome3,pib1);
         }
 
         //Densidade populacional
@@ -973,7 +973,7 @@ int main() {
         }
         else 
         {
-            printf("A densidade populacional de %s e %s são iguais (%.2f)",nome1,nome3,denspop1);
+            printf("A densidade populacional de %s e %s são iguais (%.2f)\n",nome1,nome3,denspop1);
         }
 
         //PIB per capta
@@ -988,7 +988,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB per capta de %s e %s são iguais (%.2f)",nome1,nome3,ppcap1);
+            printf("O PIB per capta de %s e %s são iguais (%.2f)\n",nome1,nome3,ppcap1);
         }
 
         //Super poder
@@ -1003,7 +1003,7 @@ int main() {
         }
         else 
         {
-            printf("O super poder de %s e %s são iguais (%.2f)",nome1,nome3,poder1);
+            printf("O super poder de %s e %s são iguais (%.2f)\n",nome1,nome3,poder1);
         }
 
             break;
@@ -1024,7 +1024,7 @@ int main() {
         }
         else 
         {
-            printf("A população de %s e de %s são iguais (%d)",nome2,nome3,populacao2);
+            printf("A população de %s e de %s são iguais (%d)\n",nome2,nome3,populacao2);
         }
         
         //pontos turísticos
@@ -1039,7 +1039,7 @@ int main() {
         }
         else 
         {
-            printf("O número de pontos turísticos de %s e de %s são iguais (%d)",nome2,nome3,pontosturisticos2);
+            printf("O número de pontos turísticos de %s e de %s são iguais (%d)\n",nome2,nome3,pontosturisticos2);
         }
 
         //Área
@@ -1054,7 +1054,7 @@ int main() {
         }
         else 
         {
-            printf("A área de %s e %s são iguais (%.2f)",nome2,nome3,area2);
+            printf("A área de %s e %s são iguais (%.2f)\n",nome2,nome3,area2);
         }
 
         //PIB
@@ -1069,7 +1069,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB de %s e %s são iguais (%.2f)",nome2,nome3,pib2);
+            printf("O PIB de %s e %s são iguais (%.2f)\n",nome2,nome3,pib2);
         }
 
         //Densidade populacional
@@ -1084,7 +1084,7 @@ int main() {
         }
         else 
         {
-            printf("A densidade populacional de %s e %s são iguais (%.2f)",nome2,nome3,denspop2);
+            printf("A densidade populacional de %s e %s são iguais (%.2f)\n",nome2,nome3,denspop2);
         }
 
         //PIB per capta
@@ -1099,7 +1099,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB per capta de %s e %s são iguais (%.2f)",nome2,nome3,ppcap2);
+            printf("O PIB per capta de %s e %s são iguais (%.2f)\n",nome2,nome3,ppcap2);
         }
 
         //Super poder
@@ -1114,7 +1114,7 @@ int main() {
         }
         else 
         {
-            printf("O super poder de %s e %s são iguais (%.2f)",nome2,nome3,poder1);
+            printf("O super poder de %s e %s são iguais (%.2f)\n",nome2,nome3,poder1);
         }
 
             break;
@@ -1135,7 +1135,7 @@ int main() {
         }
         else 
         {
-            printf("A população de %s e de %s são iguais (%d)",nome3,nome3,populacao4);
+            printf("A população de %s e de %s são iguais (%d)\n",nome3,nome3,populacao4);
         }
         
         //pontos turísticos
@@ -1150,7 +1150,7 @@ int main() {
         }
         else 
         {
-            printf("O número de pontos turísticos de %s e de %s são iguais (%d)",nome3,nome4,pontosturisticos3);
+            printf("O número de pontos turísticos de %s e de %s são iguais (%d)\n",nome3,nome4,pontosturisticos3);
         }
         
         //Área
@@ -1165,7 +1165,7 @@ int main() {
         }
         else 
         {
-            printf("A área de %s e %s são iguais (%.2f)",nome3,nome4,area3);
+            printf("A área de %s e %s são iguais (%.2f)\n",nome3,nome4,area3);
         }
 
         //PIB
@@ -1180,7 +1180,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB de %s e %s são iguais (%.2f)",nome3,nome2,pib4);
+            printf("O PIB de %s e %s são iguais (%.2f)\n",nome3,nome2,pib4);
         }
 
         //Densidade populacional
@@ -1195,7 +1195,7 @@ int main() {
         }
         else 
         {
-            printf("A densidade populacional de %s e %s são iguais (%.2f)",nome3,nome2,denspop4);
+            printf("A densidade populacional de %s e %s são iguais (%.2f)\n",nome3,nome2,denspop4);
         }
 
         //PIB per capta
@@ -1210,7 +1210,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB per capta de %s e %s são iguais (%.2f)",nome3,nome4,ppcap3);
+            printf("O PIB per capta de %s e %s são iguais (%.2f)\n",nome3,nome4,ppcap3);
         }
 
         //Super poder
@@ -1225,7 +1225,7 @@ int main() {
         }
         else 
         {
-            printf("O super poder de %s e %s são iguais (%.2f)",nome3,nome4,poder3);
+            printf("O super poder de %s e %s são iguais (%.2f)\n",nome3,nome4,poder3);
         }
 
             break;
@@ -1264,7 +1264,7 @@ int main() {
         }
         else 
         {
-            printf("A população de %s e de %s são iguais (%d)",nome1,nome4,populacao1);
+            printf("A população de %s e de %s são iguais (%d)\n",nome1,nome4,populacao1);
         }
         
         //pontos turísticos
@@ -1279,7 +1279,7 @@ int main() {
         }
         else 
         {
-            printf("O número de pontos turísticos de %s e de %s são iguais (%d)",nome1,nome4,pontosturisticos1);
+            printf("O número de pontos turísticos de %s e de %s são iguais (%d)\n",nome1,nome4,pontosturisticos1);
         }
         
         //Área
@@ -1294,7 +1294,7 @@ int main() {
         }
         else 
         {
-            printf("A área de %s e %s são iguais (%.2f)",nome1,nome4,area1);
+            printf("A área de %s e %s são iguais (%.2f)\n",nome1,nome4,area1);
         }
 
         //PIB
@@ -1309,7 +1309,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB de %s e %s são iguais (%.2f)",nome1,nome4,pib1);
+            printf("O PIB de %s e %s são iguais (%.2f)\n",nome1,nome4,pib1);
         }
 
         //Densidade populacional
@@ -1324,7 +1324,7 @@ int main() {
         }
         else 
         {
-            printf("A densidade populacional de %s e %s são iguais (%.2f)",nome1,nome4,denspop1);
+            printf("A densidade populacional de %s e %s são iguais (%.2f)\n",nome1,nome4,denspop1);
         }
 
         //PIB per capta
@@ -1339,7 +1339,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB per capta de %s e %s são iguais (%.2f)",nome1,nome4,ppcap1);
+            printf("O PIB per capta de %s e %s são iguais (%.2f)\n",nome1,nome4,ppcap1);
         }
 
         //Super poder
@@ -1354,7 +1354,7 @@ int main() {
         }
         else 
         {
-            printf("O super poder de %s e %s são iguais (%.2f)",nome1,nome4,poder1);
+            printf("O super poder de %s e %s são iguais (%.2f)\n",nome1,nome4,poder1);
         }
 
             break;
@@ -1375,7 +1375,7 @@ int main() {
         }
         else 
         {
-            printf("A população de %s e de %s são iguais (%d)",nome2,nome4,populacao2);
+            printf("A população de %s e de %s são iguais (%d)\n",nome2,nome4,populacao2);
         }
         
         //pontos turísticos
@@ -1390,7 +1390,7 @@ int main() {
         }
         else 
         {
-            printf("O número de pontos turísticos de %s e de %s são iguais (%d)",nome2,nome4,pontosturisticos2);
+            printf("O número de pontos turísticos de %s e de %s são iguais (%d)\n",nome2,nome4,pontosturisticos2);
         }
 
         //Área
@@ -1405,7 +1405,7 @@ int main() {
         }
         else 
         {
-            printf("A área de %s e %s são iguais (%.2f)",nome2,nome4,area2);
+            printf("A área de %s e %s são iguais (%.2f)\n",nome2,nome4,area2);
         }
 
         //PIB
@@ -1420,7 +1420,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB de %s e %s são iguais (%.2f)",nome2,nome4,pib2);
+            printf("O PIB de %s e %s são iguais (%.2f)\n",nome2,nome4,pib2);
         }
 
         //Densidade populacional
@@ -1435,7 +1435,7 @@ int main() {
         }
         else 
         {
-            printf("A densidade populacional de %s e %s são iguais (%.2f)",nome2,nome4,denspop2);
+            printf("A densidade populacional de %s e %s são iguais (%.2f)\n",nome2,nome4,denspop2);
         }
 
         //PIB per capta
@@ -1450,7 +1450,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB per capta de %s e %s são iguais (%.2f)",nome2,nome4,ppcap2);
+            printf("O PIB per capta de %s e %s são iguais (%.2f)\n",nome2,nome4,ppcap2);
         }
 
         //Super poder
@@ -1465,7 +1465,7 @@ int main() {
         }
         else 
         {
-            printf("O super poder de %s e %s são iguais (%.2f)",nome2,nome4,poder2);
+            printf("O super poder de %s e %s são iguais (%.2f)\n",nome2,nome4,poder2);
         }
 
             break;
@@ -1486,7 +1486,7 @@ int main() {
         }
         else 
         {
-            printf("A população de %s e de %s são iguais (%d)",nome3,nome4,populacao3);
+            printf("A população de %s e de %s são iguais (%d)\n",nome3,nome4,populacao3);
         }
         
         //pontos turísticos
@@ -1501,7 +1501,7 @@ int main() {
         }
         else 
         {
-            printf("O número de pontos turísticos de %s e de %s são iguais (%d)",nome3,nome4,pontosturisticos3);
+            printf("O número de pontos turísticos de %s e de %s são iguais (%d)\n",nome3,nome4,pontosturisticos3);
         }
         
         //Área
@@ -1516,7 +1516,7 @@ int main() {
         }
         else 
         {
-            printf("A área de %s e %s são iguais (%.2f)",nome3,nome4,area3);
+            printf("A área de %s e %s são iguais (%.2f)\n",nome3,nome4,area3);
         }
 
         //PIB
@@ -1531,7 +1531,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB de %s e %s são iguais (%.2f)",nome3,nome4,pib3);
+            printf("O PIB de %s e %s são iguais (%.2f)\n",nome3,nome4,pib3);
         }
 
         //Densidade populacional
@@ -1546,7 +1546,7 @@ int main() {
         }
         else 
         {
-            printf("A densidade populacional de %s e %s são iguais (%.2f)",nome3,nome4,denspop3);
+            printf("A densidade populacional de %s e %s são iguais (%.2f)\n",nome3,nome4,denspop3);
         }
 
         //PIB per capta
@@ -1561,7 +1561,7 @@ int main() {
         }
         else 
         {
-            printf("O PIB per capta de %s e %s são iguais (%.2f)",nome3,nome4,ppcap3);
+            printf("O PIB per capta de %s e %s são iguais (%.2f)\n",nome3,nome4,ppcap3);
         }
 
         //Super poder
@@ -1576,7 +1576,7 @@ int main() {
         }
         else 
         {
-            printf("O super poder de %s e %s são iguais (%.2f)",nome3,nome4,poder3);
+            printf("O super poder de %s e %s são iguais (%.2f)\n",nome3,nome4,poder3);
         }
 
             break;
