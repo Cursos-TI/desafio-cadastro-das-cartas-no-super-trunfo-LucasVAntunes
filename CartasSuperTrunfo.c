@@ -12,7 +12,7 @@ int main() {
 
     int populacao1, populacao2, populacao3, populacao4, pontosturisticos1, pontosturisticos2, pontosturisticos3, pontosturisticos4;
     float area1, area2, area3, area4, pib1, pib2, pib3, pib4, denspop1, denspop2, denspop3, denspop4, ppcap1, ppcap2, ppcap3, ppcap4, poder1, poder2, poder3, poder4;
-    char codigo1 [4], codigo2 [4], codigo3 [4], codigo4 [4], nome1 [20], nome2 [20], nome3 [20], nome4 [20];
+    char codigo1 [4], codigo2 [4], codigo3 [4], codigo4 [4], nome1 [20], nome2 [20], nome3 [20], nome4 [20], compara1 [4], compara2 [4];
 
     
     // Cadastro das Cartas:
@@ -179,6 +179,25 @@ int main() {
     printf("=======================================================================\n");
 
 //Comparação de cartas
+
+    printf("Digite o código da primeira cidade a ser comparada.");
+    scanf ("%c", compara1);
+
+    printf("Digite o código da segunda cidade a ser comparada.");
+    scanf ("%c", compara2);
+    
+    if (compara1 == codigo1 && compara2 == codigo2) {}
+    if (compara1 == codigo1 && compara2 == codigo3) {}
+    if (compara1 == codigo1 && compara2 == codigo4) {}
+    if (compara1 == codigo2 && compara2 == codigo1) {}
+    if (compara1 == codigo2 && compara2 == codigo3) {}
+    if (compara1 == codigo2 && compara2 == codigo4) {}
+    if (compara1 == codigo3 && compara2 == codigo1) {}
+    if (compara1 == codigo3 && compara2 == codigo2) {}
+    if (compara1 == codigo3 && compara2 == codigo4) {}
+    if (compara1 == codigo4 && compara2 == codigo1) {}
+    if (compara1 == codigo4 && compara2 == codigo2) {}
+    if (compara1 == codigo4 && compara2 == codigo3) {}
 
 
 
