@@ -2,7 +2,7 @@
 
 int main() {
 
-    int pop1, pop2, pontos1, pontos2, atributo;
+    int pop1, pop2, pontos1, pontos2, atributo1, atributo2, soma1, soma2, resultado1, resultado2, resultado3;
     float area1, area2, pib1, pib2, dens1, dens2;
     char nome1 [20], nome2 [20];
 
@@ -71,42 +71,56 @@ int main() {
 
 //Escolha de atributos
 
-    printf ("Qual atributo das cartas deseja comparar?\n\n");
+    printf ("Qual o primeiro atributo das cartas que deseja comparar?\n\n");
     printf ("1. População\n2. Pontos turísticos\n3. Área\n4. PIB\n5. Densidade demográfica.\n\n");
     printf ("Escolha: ");
-    scanf ("%d", &atributo);
-
+    scanf ("%d", &atributo1);
+    printf ("\n\nQual o segundo atributo das cartas que deseja comparar?\n\n");
+    printf ("1. População\n2. Pontos turísticos\n3. Área\n4. PIB\n5. Densidade demográfica.\n\n");
+    printf ("Escolha: ");
+    scanf ("%d", &atributo2);
+    if (atributo1 == atributo2)
+    {
+        printf ("Você selecionou o mesmo atributo!\n\n");
+    }
+    else {
+    
 //Comparação
 
-    switch (atributo) {
+    switch (atributo1) {
         
         //População
 
         case 1:
-        if (pop1 > pop2) {
-            printf ("\n\nComparação de cartas (Atributo: População):\n\nCarta 1 - %s: %d\nCarta 2 - %s: %d\n\nResultado: Carta 1 (%s) venceu!\n\n", &nome1, pop1, &nome2, pop2, &nome1);
+       
+        printf ("\n\nComparação de cartas (Atributo: População):\n\nCarta 1 - %s: %d\nCarta 2 - %s: %d\n\n", nome1, pop1, nome2, pop2);
+        if (pop1==pop2){
+
+            resultado1= 0;
         }
-        else if (pop1 < pop2) {
-            printf ("\n\nComparação de cartas (Atributo: População):\n\nCarta 1 - %s: %d\nCarta 2 - %s: %d\n\nResultado: Carta 2 (%s) venceu!\n\n", &nome1, pop1, &nome2, pop2, &nome2);
+        else{
+            resultado1 = pop1 > pop2 ? 1 : 2;
         }
-        else {
-            printf ("\n\nComparação de cartas (Atributo: População):\n\nCarta 1 - %s:\nCarta 2 - %s:\n\nResultado: Empate!\n\n", pop1, pop2);
-        }
+        
+        soma1 = pop1;
+        soma2 = pop2;
+
         break;
 
         //Pontos turísticos
 
         case 2:
         
-        if (pontos1 > pontos2) {
-            printf ("\n\nComparação de cartas (Atributo: pontos turísticos):\n\nCarta 1 - %s: %d\nCarta 2 - %s: %d\n\nResultado: Carta 1 (%s) venceu!\n\n", &nome1, pontos1, &nome2, pontos2, &nome1);
+        printf ("\n\nComparação de cartas (Atributo: pontos turísticos):\n\nCarta 1 - %s: %d\nCarta 2 - %s: %d\n\n", nome1, pontos1, nome2, pontos2);
+        if (pontos1==pontos2){
+
+            resultado1= 0;
         }
-        else if (pop1 < pop2) {
-            printf ("\n\nComparação de cartas (Atributo: pontos turísticos):\n\nCarta 1 - %s: %d\nCarta 2 - %s: %d\n\nResultado: Carta 2 (%s) venceu!\n\n", &nome1, pontos1, &nome2, pontos2, &nome2);
+        else{
+        resultado1 = pontos1 > pontos2 ? 1 : 2;
         }
-        else {
-            printf ("\n\nComparação de cartas (Atributo: pontos turísticos):\n\nCarta 1 - %s:\nCarta 2 - %s:\n\nResultado: Empate!\n\n", pontos1, pontos2);
-        }
+        soma1 = pontos1;
+        soma2 = pontos2;
 
         break;
 
@@ -114,15 +128,16 @@ int main() {
         
         case 3:
 
-        if (area1 > area2) {
-            printf ("\n\nComparação de cartas (Atributo: Área):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\nResultado: Carta 1 (%s) venceu!\n\n", &nome1, area1, &nome2, area2, &nome1);
+        printf ("\n\nComparação de cartas (Atributo: Área):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\n", nome1, area1, nome2, area2);
+        if (area1==area2){
+
+            resultado1= 0;
         }
-        else if (area1 < area2) {
-            printf ("\n\nComparação de cartas (Atributo: Área):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\nResultado: Carta 2 (%s) venceu!\n\n", &nome1, area1, &nome2, area2, &nome2);
+        else{
+        resultado1 = area1 > area2 ? 1 : 2;
         }
-        else {
-            printf ("\n\nComparação de cartas (Atributo: Área):\n\nCarta 1 - %s:\nCarta 2 - %s:\n\nResultado: Empate!\n\n", area1, area2);
-        }
+        soma1 = area1;
+        soma2 = area2;
 
         break;
 
@@ -130,15 +145,16 @@ int main() {
         
         case 4:
 
-        if (pib1 > pib2) {
-            printf ("\n\nComparação de cartas (Atributo: PIB):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\nResultado: Carta 1 (%s) venceu!\n\n", &nome1, pib1, &nome2, pib2, &nome1);
+        printf ("\n\nComparação de cartas (Atributo: PIB):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\n", nome1, pib1, nome2, pib2);
+        if (pib1==pib2){
+
+            resultado1= 0;
         }
-        else if (pib1 < pib2) {
-            printf ("\n\nComparação de cartas (Atributo: PIB):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\nResultado: Carta 2 (%s) venceu!\n\n", &nome1, pib1, &nome2, pib2, &nome2);
+        else{
+        resultado1 = pib1 > pib2 ? 1 : 2;
         }
-        else {
-            printf ("\n\nComparação de cartas (Atributo: PIB):\n\nCarta 1 - %s:\nCarta 2 - %s:\n\nResultado: Empate!\n\n", pib1, pib2);
-        }
+        soma1 = pib1;
+        soma2 = pib2;
 
         break;
 
@@ -146,15 +162,16 @@ int main() {
 
         case 5:
 
-        if (dens1 < dens2) {
-            printf ("\n\nComparação de cartas (Atributo: densidade demográfica):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\nResultado: Carta 1 (%s) venceu!\n\n", &nome1, dens1, &nome2, dens2, &nome1);
+        printf ("\n\nComparação de cartas (Atributo: densidade demográfica):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\n", nome1, dens1, nome2, dens2);
+        if (dens1==dens2){
+
+            resultado1= 0;
         }
-        else if (dens1 > dens2) {
-            printf ("\n\nComparação de cartas (Atributo: densidade demográfica):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\nResultado: Carta 2 (%s) venceu!\n\n", &nome1, dens1, &nome2, dens2, &nome2);
+        else{
+        resultado1 = dens1 < dens2 ? 1 : 2;
         }
-        else {
-            printf ("\n\nComparação de cartas (Atributo: densidade demográfica):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\nResultado: Empate!\n\n", dens1, dens2);
-        }
+        soma1 = dens1;
+        soma2 = dens2;
 
         break;
 
@@ -166,5 +183,151 @@ int main() {
 
     }
 
+    if (resultado1 == 1)
+    {
+        printf ("Carta 1 (%s) venceu!\n\n", nome1);
+    }
+    else if (resultado1 == 2){
+        printf ("Carta 2 (%s) venceu!\n\n", nome2);
+    }
+    else{
+        printf("Empate!");
+    }
+    
+    
+    switch (atributo2) {
+        
+        //População
+
+        case 1:
+        
+        printf ("\n\nComparação de cartas (Atributo: População):\n\nCarta 1 - %s: %d\nCarta 2 - %s: %d\n\n",nome1, pop1, nome2, pop2);  
+        if (pop1==pop2){
+
+            resultado1= 0;
+        }
+        else{
+        resultado2 = pop1 > pop2 ? 1 : 2;
+        }
+        if ((soma1 + pop1) == (soma2 + pop2)){
+            resultado3= 0;
+        }
+        else{
+        resultado3 = (soma1 + pop1) > (soma2 + pop2) ? 1 : 2;
+        }
+
+        break;
+
+        //Pontos turísticos
+
+        case 2:
+        
+        printf ("\n\nComparação de cartas (Atributo: pontos turísticos):\n\nCarta 1 - %s: %d\nCarta 2 - %s: %d\n\n", nome1, pontos1, nome2, pontos2);
+        if (pontos1==pontos2){
+
+            resultado1= 0;
+        }
+        else{
+        resultado2 = pontos1 > pontos2 ? 1 : 2;
+        }
+        if ((soma1 + pontos1) == (soma2 + pontos2)){
+            resultado3= 0;
+        }else{
+        resultado3 = (soma1 + pontos1) > (soma2 + pontos2) ? 1 : 2;
+        }
+
+        break;
+
+        //Área
+        
+        case 3:
+
+        printf ("\n\nComparação de cartas (Atributo: Área):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\n", nome1, area1, nome2, area2);
+        if (area1==area2){
+
+            resultado1= 0;
+        }
+        else{
+        resultado2 = area1 > area2 ? 1 : 2;
+        }
+        if ((soma1 + area1) == (soma2 + area2)){
+            resultado3= 0;
+        }
+        else{
+        resultado3 = (soma1 + area1) > (soma2 + area2) ? 1 : 2;
+        }
+
+        break;
+
+        //Pib
+        
+        case 4:
+
+        printf ("\n\nComparação de cartas (Atributo: PIB):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\n", nome1, pib1, nome2, pib2);
+        if (pib1==pib2){
+
+            resultado1= 0;
+        }
+        else{
+        resultado2 = pib1 > pib2 ? 1 : 2;
+        }
+        if ((soma1 + pib1) == (soma2 + pib2)){
+            resultado3= 0;
+        }else{
+        resultado3 = (soma1 + pib1) > (soma2 + pib2) ? 1 : 2;
+        }
+        break;
+
+        //Densidade demográfica
+
+        case 5:
+
+        printf ("\n\nComparação de cartas (Atributo: densidade demográfica):\n\nCarta 1 - %s: %.2f\nCarta 2 - %s: %.2f\n\n", nome1, dens1, nome2, dens2);
+        if (dens1==dens2){
+
+            resultado1= 0;
+        }
+        else{
+        resultado2 = dens1 < dens2 ? 1 : 2;
+        }
+        if ((soma1 + dens1) == (soma2 + dens2)){
+            resultado3= 0;
+        }else{
+        resultado3 = (soma1 + dens1) > (soma2 + dens2) ? 1 : 2;
+        }
+
+        break;
+
+        default:
+
+        printf ("Opção inválida!");
+        
+        break;
+    }
+    if (resultado2 == 1)
+    {
+        printf ("Carta 1 (%s) venceu!\n\n", nome1);
+    }
+    else if (resultado2 == 2){
+        printf ("Carta 2 (%s) venceu!\n\n", nome2);
+    }
+    else{
+        printf("Empate!\n\n");
+    }
+    
+    printf ("\n***SOMA DOS ATRIBUTOS***\n\n");
+    
+    if (resultado3 == 1)
+    {
+        printf ("Carta 1 (%s) venceu!\n\n", nome1);
+    }
+    else if (resultado3 == 2){
+        printf ("Carta 2 (%s) venceu!\n\n", nome2);
+    }
+    else{
+        printf("Empate!\n\n");
+    }
+
+    }
     return 0;
 }
